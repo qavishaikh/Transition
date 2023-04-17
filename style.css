@@ -1,0 +1,27 @@
+#mydiv
+              { border: 5px black ridge; 
+                height: 200px;
+                width: 200px;
+                background-color: lightgray;
+                transition-duration: 3s;
+                transition-property: all;
+                -o-transition-timing-function:ease;
+
+                
+              }
+              #mydiv:hover
+              {
+                  height: 400px;
+                  width: 400;
+                  border-radius: 50px;
+                  background-color: lightblue;
+                  border: 40px red double;
+                  transform: rotate(360deg);
+                  font-size: 40px;
+                  font-weight: bold;
+                  color: green;
+              }
+              p
+              {
+                  text-align: center;
+              }
